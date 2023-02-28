@@ -1,0 +1,65 @@
+body {
+    background-color: #014040;
+    color: #F27405;
+}
+.intro {
+    background-image: url(./resources/background-landscape.jpeg);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 25rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro a {
+    color: white;
+    z-index: 1;
+}
+
+.intro h2 {
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.orange {
+    color: #F27405;
+    padding: 0 2rem;
+}
+
+.green {
+    color: #03A678;
+    padding: 0 2rem ;
+}
+
+ul {
+    list-style: none;
+    float: left;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.info h2 {
+    justify-content: center;
+}
+
+
+
+@media (max-width: 500px) {
+    .intro h2 {
+        flex-direction: column;
+    }
+}
+    
+}
